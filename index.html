@@ -9,7 +9,7 @@
 <meta name="description" content="Estética Miels en Terragrata, Dosquebradas: uñas, pedi spa, facial, cejas y pestañas, cabello, depilación y masajes reductores. Precios y citas por WhatsApp. Agenda tu cita por WhatsApp.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Josefin+Sans:wght@300;400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap">
 <style>
 /* Layout: una sola página vertical sobre rosa palo, como una tarjeta de cita del salón; el dorado solo en títulos script, filetes y el botón de WhatsApp. Un solo look claro, a propósito (es la marca). */
 :root{
@@ -25,7 +25,7 @@
   --wa:#1F8F4E;
   --script:"Allura","Great Vibes",cursive;
   --serif:"Cormorant Garamond","Georgia",serif;
-  --sans:"Josefin Sans","Montserrat","Helvetica Neue",Arial,sans-serif;
+  --sans:"Poppins","Montserrat","Helvetica Neue",Arial,sans-serif;
   color-scheme:light;
 }
 *{box-sizing:border-box}
@@ -35,11 +35,11 @@ body{background:var(--rosa);color:var(--cafe);font-family:var(--sans);font-size:
 a{color:inherit}
 :focus-visible{outline:2px solid var(--oro-1);outline-offset:3px;border-radius:4px}
 .wrap{max-width:1080px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
-.oro-txt{background:linear-gradient(100deg,var(--oro-1) 0%,#D9B86A 35%,var(--oro-2) 55%,var(--oro-1) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.oro-txt{background:linear-gradient(100deg,var(--oro-1) 0%,#D9B86A 35%,var(--oro-2) 55%,var(--oro-1) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;padding:.08em .22em .26em;margin:-.08em -.22em -.26em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.32em;font-size:.78rem;font-weight:600;color:var(--cafe-2)}
 h1,h2,h3{text-wrap:balance;margin:0;font-weight:500}
 h2{font-family:var(--serif);font-size:clamp(2rem,4.5vw,2.8rem);line-height:1.1;color:var(--cafe)}
-h2 .s{font-family:var(--script);font-size:1.35em;font-weight:400;line-height:.8}
+h2 .s{font-family:var(--script);font-size:1.35em;font-weight:400;line-height:1}
 p{margin:0}
 
 /* header */
@@ -63,7 +63,7 @@ header .btn{padding:10px 18px;font-size:.74rem}
 
 /* hero */
 .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-block:56px 64px}
-.hero h1{font-family:var(--script);font-size:clamp(3.4rem,8vw,5.6rem);line-height:.95;font-weight:400;margin-block:14px 18px}
+.hero h1{font-family:var(--script);font-size:clamp(3.4rem,8vw,5.6rem);line-height:1.2;font-weight:400;margin-block:10px 14px}
 .hero p.lead{font-size:1.12rem;max-width:34ch;color:var(--cafe-2)}
 .hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
 .hero .logo-grande{justify-self:center;width:min(100%,400px);aspect-ratio:1;max-width:100%}
@@ -204,7 +204,7 @@ footer .wrap{padding-block:24px 96px}
       <div class="cabeza">
         <p class="eyebrow">Servicios y precios</p>
         <h2>Todo para <span class="s oro-txt">consentirte</span></h2>
-        <p>Precios en pesos colombianos. Escríbenos por WhatsApp para separar tu turno.</p>
+        <p>Escríbenos por WhatsApp para separar tu turno.</p>
       </div>
       <div class="carta">
         <article class="cat">
